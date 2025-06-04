@@ -21,7 +21,9 @@ function clearDisplay() {
 
 
 function deleteLast() {
-	display.value = display.value.slice(0, -1);
+	if (true) {
+		display.value = display.value.slice(0, -1);
+	}
 }
 
 
